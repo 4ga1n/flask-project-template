@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/base:${templateOption:imageVariant}
+FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
 ARG DEBIAN_FRONTEND=noninteractive
 ARG USER=vscode
